@@ -1,0 +1,49 @@
+{
+  "requests": [
+    {
+      "parentName": "John",
+      "childName": "Ralph",
+      "numberOfAttendees": "16",
+      "reservationLength": "2",
+      "address": "123 Main St",
+      "date": "2022-07-22",
+      "id": 1
+    },
+    {
+      "parentName": "Steve",
+      "childName": "Dylan",
+      "numberOfAttendees": "10",
+      "reservationLength": "3.5",
+      "address": "100 S 3rd St",
+      "date": "2022-07-26",
+      "id": 2
+    },
+    {
+      "parentName": "Tom",
+      "childName": "Billy",
+      "numberOfAttendees": "25",
+      "reservationLength": "3",
+      "address": "1284 22nd Ave",
+      "date": "2022-07-09",
+      "id": 3
+    }
+  ],
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 2,
+      "clownId": 1,
+      "completionDate": 1657299570903,
+      "id": 1
+    }
+  ]
+}
